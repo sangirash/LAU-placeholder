@@ -5,18 +5,19 @@
 }
 
 :root {
-    --primary-gradient: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-    --secondary-gradient: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
-    --dark-bg: #0a0e27;
-    --card-bg: rgba(255, 255, 255, 0.05);
-    --text-primary: #ffffff;
-    --text-secondary: #a0aec0;
-    --glow-color: rgba(102, 126, 234, 0.4);
+    --primary-color: rgb(37, 150, 190);
+    --primary-gradient: linear-gradient(135deg, rgb(37, 150, 190) 0%, rgb(25, 120, 160) 100%);
+    --secondary-gradient: linear-gradient(135deg, rgb(37, 150, 190) 0%, rgb(45, 170, 210) 100%);
+    --light-bg: #ffffff;
+    --card-bg: rgba(37, 150, 190, 0.05);
+    --text-primary: #1a202c;
+    --text-secondary: #4a5568;
+    --glow-color: rgba(37, 150, 190, 0.3);
 }
 
 body {
     font-family: 'Inter', sans-serif;
-    background: var(--dark-bg);
+    background: var(--light-bg);
     color: var(--text-primary);
     overflow-x: hidden;
     min-height: 100vh;
@@ -72,8 +73,8 @@ body {
 }
 
 .brand-highlight {
-    color: #f5576c;
-    -webkit-text-fill-color: #f5576c;
+    color: var(--primary-color);
+    -webkit-text-fill-color: var(--primary-color);
 }
 
 .domain {
@@ -95,7 +96,7 @@ body {
     padding: 0.5rem 1.5rem;
     background: var(--card-bg);
     backdrop-filter: blur(10px);
-    border: 1px solid rgba(102, 126, 234, 0.3);
+    border: 1px solid rgba(37, 150, 190, 0.3);
     border-radius: 50px;
     margin-bottom: 2rem;
     font-size: 0.875rem;
@@ -106,7 +107,7 @@ body {
 .pulse-dot {
     width: 8px;
     height: 8px;
-    background: #667eea;
+    background: var(--primary-color);
     border-radius: 50%;
     animation: pulse 2s ease-in-out infinite;
 }
@@ -167,7 +168,7 @@ body {
 .time-unit {
     background: var(--card-bg);
     backdrop-filter: blur(10px);
-    border: 1px solid rgba(102, 126, 234, 0.2);
+    border: 2px solid rgba(37, 150, 190, 0.2);
     border-radius: 16px;
     padding: 1.5rem 2rem;
     min-width: 120px;
@@ -176,8 +177,8 @@ body {
 
 .time-unit:hover {
     transform: translateY(-5px);
-    border-color: rgba(102, 126, 234, 0.5);
-    box-shadow: 0 10px 40px rgba(102, 126, 234, 0.3);
+    border-color: rgba(37, 150, 190, 0.5);
+    box-shadow: 0 10px 40px rgba(37, 150, 190, 0.2);
 }
 
 .time-value {
@@ -210,7 +211,7 @@ body {
 .launch-date {
     font-size: 1.5rem;
     font-weight: 600;
-    color: #667eea;
+    color: var(--primary-color);
     letter-spacing: 1px;
 }
 
@@ -226,7 +227,7 @@ body {
 .feature-card {
     background: var(--card-bg);
     backdrop-filter: blur(10px);
-    border: 1px solid rgba(102, 126, 234, 0.2);
+    border: 2px solid rgba(37, 150, 190, 0.2);
     border-radius: 20px;
     padding: 2.5rem 2rem;
     transition: all 0.3s ease;
@@ -234,8 +235,8 @@ body {
 
 .feature-card:hover {
     transform: translateY(-10px);
-    border-color: rgba(102, 126, 234, 0.5);
-    box-shadow: 0 20px 60px rgba(102, 126, 234, 0.3);
+    border-color: rgba(37, 150, 190, 0.5);
+    box-shadow: 0 20px 60px rgba(37, 150, 190, 0.2);
 }
 
 .feature-icon {
@@ -349,9 +350,9 @@ body {
 /* Footer */
 .footer {
     padding-top: 3rem;
-    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    border-top: 1px solid rgba(37, 150, 190, 0.2);
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     flex-wrap: wrap;
     gap: 1rem;
@@ -361,23 +362,6 @@ body {
 .footer p {
     color: var(--text-secondary);
     font-size: 0.875rem;
-}
-
-.social-links {
-    display: flex;
-    gap: 2rem;
-}
-
-.social-link {
-    color: var(--text-secondary);
-    text-decoration: none;
-    font-size: 0.875rem;
-    font-weight: 500;
-    transition: all 0.3s ease;
-}
-
-.social-link:hover {
-    color: #667eea;
 }
 
 /* Animations */
