@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Law & You - Coming Soon</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="stars"></div>
+    <div class="stars2"></div>
+    <div class="stars3"></div>
+
+    <div class="container">
+        <div class="content">
+            <!-- Logo/Brand -->
+            <div class="brand">
+                <div class="logo-wrapper">
+                    <svg class="logo-icon" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M50 10L90 90H10L50 10Z" stroke="url(#gradient)" stroke-width="2" fill="none"/>
+                        <circle cx="50" cy="50" r="8" fill="url(#gradient)"/>
+                        <defs>
+                            <linearGradient id="gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+                                <stop offset="0%" style="stop-color:#667eea;stop-opacity:1" />
+                                <stop offset="100%" style="stop-color:#764ba2;stop-opacity:1" />
+                            </linearGradient>
+                        </defs>
+                    </svg>
+                </div>
+                <h1 class="brand-name">Law<span class="brand-highlight">&</span>You</h1>
+                <p class="domain">lawandyou.co.in</p>
+            </div>
+
+            <!-- Main Message -->
+            <div class="main-message">
+                <div class="ai-badge">
+                    <span class="pulse-dot"></span>
+                    <span>AI-Powered Legal Solutions</span>
+                </div>
+                <h2 class="headline">Something Revolutionary<br/>is <span class="gradient-text">Coming Soon</span></h2>
+                <p class="subheadline">We're crafting an intelligent legal SaaS platform that will transform how you interact with the law. Powered by cutting-edge AI technology, we're building the future of legal assistance.</p>
+            </div>
+
+            <!-- Countdown Timer -->
+            <div class="countdown-wrapper">
+                <h3 class="countdown-label">Launching In</h3>
+                <div class="countdown">
+                    <div class="time-unit">
+                        <div class="time-value" id="days">000</div>
+                        <div class="time-label">Days</div>
+                    </div>
+                    <div class="time-separator">:</div>
+                    <div class="time-unit">
+                        <div class="time-value" id="hours">00</div>
+                        <div class="time-label">Hours</div>
+                    </div>
+                    <div class="time-separator">:</div>
+                    <div class="time-unit">
+                        <div class="time-value" id="minutes">00</div>
+                        <div class="time-label">Minutes</div>
+                    </div>
+                    <div class="time-separator">:</div>
+                    <div class="time-unit">
+                        <div class="time-value" id="seconds">00</div>
+                        <div class="time-label">Seconds</div>
+                    </div>
+                </div>
+                <div class="launch-date">March 16, 2026</div>
+            </div>
+
+            <!-- Features Preview -->
+            <div class="features">
+                <div class="feature-card">
+                    <div class="feature-icon">🤖</div>
+                    <h4>AI-Driven Insights</h4>
+                    <p>Advanced machine learning algorithms for intelligent legal analysis</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">⚡</div>
+                    <h4>Lightning Fast</h4>
+                    <p>Get instant answers to your legal queries in seconds</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🔒</div>
+                    <h4>Secure & Private</h4>
+                    <p>Enterprise-grade security for your sensitive legal matters</p>
+                </div>
+            </div>
+
+            <!-- Notify Section -->
+            <div class="notify-section">
+                <h3>Be the First to Know</h3>
+                <p>Sign up to get notified when we launch and receive exclusive early access</p>
+                <form class="notify-form" id="notifyForm">
+                    <input type="email" placeholder="Enter your email address" required>
+                    <button type="submit" class="notify-btn">
+                        <span>Notify Me</span>
+                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+                            <path d="M6 12L10 8L6 4" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </button>
+                </form>
+                <div class="notify-message" id="notifyMessage"></div>
+            </div>
+
+            <!-- Footer -->
+            <footer class="footer">
+                <p>&copy; 2025 Law & You. All rights reserved.</p>
+                <div class="social-links">
+                    <a href="#" class="social-link">Twitter</a>
+                    <a href="#" class="social-link">LinkedIn</a>
+                    <a href="#" class="social-link">Contact</a>
+                </div>
+            </footer>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
