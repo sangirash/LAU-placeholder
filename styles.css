@@ -5,14 +5,14 @@
 }
 
 :root {
-    --primary-color: rgb(37, 150, 190);
-    --primary-gradient: linear-gradient(135deg, rgb(37, 150, 190) 0%, rgb(25, 120, 160) 100%);
-    --secondary-gradient: linear-gradient(135deg, rgb(37, 150, 190) 0%, rgb(45, 170, 210) 100%);
+    --primary-color: rgb(255, 115, 40);
+    --primary-gradient: linear-gradient(135deg, rgb(255, 115, 40) 0%, rgb(230, 90, 20) 100%);
+    --secondary-gradient: linear-gradient(135deg, rgb(255, 115, 40) 0%, rgb(255, 140, 70) 100%);
     --light-bg: #ffffff;
-    --card-bg: rgba(37, 150, 190, 0.05);
+    --card-bg: rgba(255, 115, 40, 0.05);
     --text-primary: #1a202c;
     --text-secondary: #4a5568;
-    --glow-color: rgba(37, 150, 190, 0.3);
+    --glow-color: rgba(255, 115, 40, 0.3);
 }
 
 body {
@@ -96,7 +96,7 @@ body {
     padding: 0.5rem 1.5rem;
     background: var(--card-bg);
     backdrop-filter: blur(10px);
-    border: 1px solid rgba(37, 150, 190, 0.3);
+    border: 1px solid rgba(255, 115, 40, 0.3);
     border-radius: 50px;
     margin-bottom: 2rem;
     font-size: 0.875rem;
@@ -168,7 +168,7 @@ body {
 .time-unit {
     background: var(--card-bg);
     backdrop-filter: blur(10px);
-    border: 2px solid rgba(37, 150, 190, 0.2);
+    border: 2px solid rgba(255, 115, 40, 0.2);
     border-radius: 16px;
     padding: 1.5rem 2rem;
     min-width: 120px;
@@ -177,8 +177,8 @@ body {
 
 .time-unit:hover {
     transform: translateY(-5px);
-    border-color: rgba(37, 150, 190, 0.5);
-    box-shadow: 0 10px 40px rgba(37, 150, 190, 0.2);
+    border-color: rgba(255, 115, 40, 0.5);
+    box-shadow: 0 10px 40px rgba(255, 115, 40, 0.2);
 }
 
 .time-value {
@@ -227,7 +227,7 @@ body {
 .feature-card {
     background: var(--card-bg);
     backdrop-filter: blur(10px);
-    border: 2px solid rgba(37, 150, 190, 0.2);
+    border: 2px solid rgba(255, 115, 40, 0.2);
     border-radius: 20px;
     padding: 2.5rem 2rem;
     transition: all 0.3s ease;
@@ -235,8 +235,8 @@ body {
 
 .feature-card:hover {
     transform: translateY(-10px);
-    border-color: rgba(37, 150, 190, 0.5);
-    box-shadow: 0 20px 60px rgba(37, 150, 190, 0.2);
+    border-color: rgba(255, 115, 40, 0.5);
+    box-shadow: 0 20px 60px rgba(255, 115, 40, 0.2);
 }
 
 .feature-icon {
@@ -350,7 +350,7 @@ body {
 /* Footer */
 .footer {
     padding-top: 3rem;
-    border-top: 1px solid rgba(37, 150, 190, 0.2);
+    border-top: 1px solid rgba(255, 115, 40, 0.2);
     display: flex;
     justify-content: center;
     align-items: center;
